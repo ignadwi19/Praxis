@@ -1,0 +1,240 @@
+C:\>G:
+
+G:\>dir
+ Volume in drive G is DATA BOI
+ Volume Serial Number is E01B-1997
+
+ Directory of G:\
+
+10/02/2019  07:38 AM    <DIR>          Daily Report IT Dept
+10/05/2019  09:17 AM    <DIR>          Exam Record
+10/04/2019  09:59 PM    <DIR>          logo
+               0 File(s)              0 bytes
+               3 Dir(s)  122,353,799,168 bytes free
+
+G:\>mkdir praxis-academy
+
+G:\>cd praxis-academy
+
+G:\praxis-academy>mkdir kemampuan-dasar-1
+
+G:\praxis-academy>cd kemampuan-dasar-1
+
+G:\praxis-academy\kemampuan-dasar-1>mkdir latihan
+
+G:\praxis-academy\kemampuan-dasar-1>
+
+G:\praxis-academy\kemampuan-dasar-1>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 12:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 14:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::45d6:b352:48c1:bd3d%20
+   IPv4 Address. . . . . . . . . . . : 192.168.2.97
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.2.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+G:\praxis-academy\kemampuan-dasar-1>date
+The current date is: Sat 10/05/2019
+Enter the new date: (mm-dd-yy) 10-06-2019
+A required privilege is not held by the client.
+
+G:\praxis-academy\kemampuan-dasar-1>whoami
+ignadwiutami\igna dwi utami
+
+G:\praxis-academy\kemampuan-dasar-1>color ?
+Sets the default console foreground and background colors.
+
+COLOR [attr]
+
+  attr        Specifies color attribute of console output
+
+Color attributes are specified by TWO hex digits -- the first
+corresponds to the background; the second the foreground.  Each digit
+can be any of the following values:
+
+    0 = Black       8 = Gray
+    1 = Blue        9 = Light Blue
+    2 = Green       A = Light Green
+    3 = Aqua        B = Light Aqua
+    4 = Red         C = Light Red
+    5 = Purple      D = Light Purple
+    6 = Yellow      E = Light Yellow
+    7 = White       F = Bright White
+
+If no argument is given, this command restores the color to what it was
+when CMD.EXE started.  This value either comes from the current console
+window, the /T command line switch or from the DefaultColor registry
+value.
+
+The COLOR command sets ERRORLEVEL to 1 if an attempt is made to execute
+the COLOR command with a foreground and background color that are the
+same.
+
+Example: "COLOR fc" produces light red on bright white
+
+G:\praxis-academy\kemampuan-dasar-1>color 1
+
+G:\praxis-academy\kemampuan-dasar-1>color 7
+
+C:\Users\Igna Dwi Utami>write
+
+C:\Users\Igna Dwi Utami>taskmgr
+
+C:\Users\Igna Dwi Utami>msconfig
+
+G:\>EXTRACT [/Y] [/A] [/D | /E] [/L dir] cabinet [jpg2png]
+'EXTRACT' is not recognized as an internal or external command,
+operable program or batch file.
+
+G:\>del G:helloworld.java
+
+G:\>chdir
+
+G:\>
+
+G:\>attrib cari-java.ps1
+A                    G:\cari-java.ps1
+
+G:\>cmd
+Microsoft Windows [Version 10.0.18362.356]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+G:\>NET
+The syntax of this command is:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+G:\>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 12:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 14:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::45d6:b352:48c1:bd3d%20
+   IPv4 Address. . . . . . . . . . . : 192.168.100.70
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%20
+                                       192.168.100.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+G:\>ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used.
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+
+G:\>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:49796        tonec:49806            ESTABLISHED
+  TCP    127.0.0.1:49806        tonec:49796            ESTABLISHED
+  TCP    192.168.100.70:49682   102:4070               ESTABLISHED
+  TCP    192.168.100.70:49693   203:https              ESTABLISHED
+  TCP    192.168.100.70:49698   47:https               ESTABLISHED
+  TCP    192.168.100.70:49729   203:https              ESTABLISHED
+  TCP    192.168.100.70:49776   ec2-52-55-100-121:https  ESTABLISHED
+  TCP    192.168.100.70:49786   ec2-13-115-90-56:https  ESTABLISHED
+  TCP    192.168.100.70:49894   52.139.250.253:https   ESTABLISHED
+  TCP    192.168.100.70:49951   sb-in-f188:5228        ESTABLISHED
+  TCP    192.168.100.70:50211   a104-93-234-123:https  CLOSE_WAIT
+
+C:\Users\Igna Dwi Utami>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+
+C:\Users\Igna Dwi Utami>nslookup
+Default Server:  100.subnet118-98-44.astinet.telkom.net.id
+Address:  118.98.44.100
+
+G:\>start
+
+exit
